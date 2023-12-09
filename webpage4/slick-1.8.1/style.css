@@ -1,0 +1,589 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .slider {
+      width: 80%;
+      /* height: 50%; */
+      margin: 100px auto;
+  }
+
+  .slick-slide {
+    margin: 0px 20px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+    /* height: 10%; */
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+
+
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: 1;
+  }
+  
+  .slick-active {
+    opacity: .5;
+  }
+
+  .slick-current {
+    opacity: 1;
+  }
+  header{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+  #main{
+    height: 120px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background: white;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #logo{
+    height: 120px;
+    width: auto;
+  }
+  #logo img{
+    height: 100%;
+    width: 100%;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: black
+  }
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 90%;
+      height: 83%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 90%;
+      height: 100%;
+      object-fit: cover;
+    
+  }
+  #abt{
+    height: 80vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+  }
+  #abt-main{
+    height: 80vh;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #abt1{
+    height: 80vh;
+    width: 45%;
+
+  }
+  #abt1 img{
+    height: 100%;
+    width: 100%;
+  }
+  #abt1 h1{
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 50px;
+  }
+  #abt1 h2{
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  #abt1 a{
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    background: black;
+    color: white;
+    border-radius: 10px;
+  }
+  #abt1 p{
+    margin-bottom: 30px;
+  }
+  #mn{
+    height: 85vh;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+  #mn-main{
+    height: 70vh;
+    width: 80%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #mn h1{
+    margin-left: 150px;
+    text-decoration: underline;
+    font-size: 33px;
+  }
+  #a{
+    height: 33vh;
+    width: 23%;
+  }
+  #a img{
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+  }
+  #a img:hover{
+    height: 105%;
+    width: 105%;
+    border-radius: 15px;
+  }
+  #form{
+    height: 80vh;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+  #fm-main{
+    height: 70vh;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  #fm1{
+    height: 70vh;
+    width: 45%;
+
+  }
+  #fm1 img{
+    height: 80%;
+    width: 100%;
+  }
+  #fm1 input{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+  }
+  #fm1 a{
+    background: black;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  footer{
+    height: 20vh;
+    width: 100%;
+    border: 1px solid black;
+  }
+  #ft-main{
+    height: 20vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #ft1 i{
+      font-size: 25px;
+  }
+  #b1{
+    color: #000;
+    display: none;
+  }
+  #b2{
+    color: #000;
+    display: none;
+  }
+  @media (min-width:720px) and (max-width:980px)
+   {
+      #form textarea{
+        width: 100%;
+      }   
+  }
+
+  @media (min-width:480px) and (max-width:720px)
+  {
+    
+header{
+ height: 500px;
+ width: auto;
+
+}
+#main{
+ margin-bottom: 110px;
+ position: relative;
+}
+
+#logo h1{
+   font-size: 30px;
+}
+#b1{
+ display: block;
+ color: #0a1102;
+ position: absolute;
+ top: 40%;
+ left: 80%;
+
+}
+#b2{
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 88%;
+  color: #0a1102;
+}
+nav{
+ position: absolute;
+ top: 100%;
+ display: none;
+ background: rgb(10, 211, 211);
+ /* color: #000; */
+ /* display: block;   */
+}
+nav ul li{
+ display: block;
+}
+nav ul li a{
+  color: #000;
+}
+#abt{
+  margin-top: 150px;
+}
+#abt1 h1{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#abt1 h2{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+#abt1 p{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+#mn{
+  height: auto;
+  width: auto;
+}
+#mn-main{
+  height: auto;
+  width: auto;
+  flex-wrap: wrap;
+  margin-left: 0;
+}
+#a{
+  height: auto;
+  width: 48%;
+  /* margin-left: 0; */
+}
+#form input{
+  width: 330px;
+}
+#form textarea{
+  width: 125%;
+}
+footer{
+  height: auto;
+  width: auto;
+}
+#ft-main{
+  height: auto;
+  width: auto;
+  /* flex-direction: column; */
+  text-align: center;
+}
+
+#ft1{
+  height: auto;
+  width: 100%;
+  /* flex-direction: column; */
+}
+/* #ft1 h1{
+  font-size: 20px;
+}
+#ft1 p{
+  font-size: 16px;
+} */
+  }
+
+  @media (min-width:360px) and (max-width:480px)
+  {
+    
+header{
+ height: 500px;
+ width: auto;
+
+}
+#main{
+ margin-bottom: 110px;
+ position: relative;
+}
+
+#logo h1{
+   font-size: 30px;
+}
+#b1{
+ display: block;
+ color: #0a1102;
+ position: absolute;
+ top: 40%;
+ left: 80%;
+
+}
+#b2{
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 88%;
+  color: #0a1102;
+}
+nav{
+ position: absolute;
+ top: 100%;
+ display: none;
+ background: rgb(10, 211, 211);
+ /* color: #000; */
+ /* display: block;   */
+}
+nav ul li{
+ display: block;
+}
+nav ul li a{
+  color: #000;
+}
+#abt{
+  height: auto;
+  width: auto;
+  margin-top: 160px;
+}
+#abt-main{
+  height: auto;
+  width: auto;
+  flex-direction: column;
+}
+#abt1{
+  height: auto;
+  width: auto;
+}
+#mn{
+  height: auto;
+  width: auto;
+}
+#mn-main{
+  height: auto;
+  width: auto;
+  flex-wrap: wrap;
+  margin-left: 0;
+}
+
+#abt1 img{
+  width: 92%;
+}
+#a{
+  height: auto;
+  width: 45%;
+  /* margin-left: 0; */
+}
+#form{
+  height: auto;
+  width: auto;
+}
+#fm-main{
+  height: auto;
+  width: auto;
+  flex-direction: column;
+}
+#fm1{
+  height: auto;
+  width: 100%;
+}
+textarea {
+  width: 98%;
+}
+#fm1 input{
+  width: 420px;
+}
+footer{
+  height: auto;
+  width: auto;
+}
+#ft-main{
+  height: auto;
+  width: auto;
+  flex-direction: column;
+  text-align: center;
+}
+
+#ft1{
+  height: auto;
+  width: 100%;
+  /* flex-direction: column; */
+}
+/* #ft1 h1{
+  font-size: 20px;
+}
+#ft1 p{
+  font-size: 16px;
+} */
+  }
+
+  @media (min-width:0px) and (max-width:360px)
+  {
+    
+header{
+ height: 500px;
+ width: auto;
+
+}
+#main{
+ margin-bottom: 110px;
+ position: relative;
+}
+
+#logo h1{
+   font-size: 30px;
+}
+#b1{
+ display: block;
+ color: #0a1102;
+ position: absolute;
+ top: 40%;
+ left: 80%;
+
+}
+#b2{
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 88%;
+  color: #0a1102;
+}
+nav{
+ position: absolute;
+ top: 100%;
+ display: none;
+ background: rgb(16, 176, 176);
+ /* color: #000; */
+ /* display: block;   */
+}
+nav ul li{
+ display: block;
+}
+nav ul li a{
+  color: #000;
+}
+#abt{
+  height: auto;
+  width: auto;
+  margin-top: 160px;
+}
+#abt-main{
+  height: auto;
+  width: auto;
+  flex-direction: column;
+}
+#abt1{
+  height: auto;
+  width: auto;
+}
+#abt1 img{
+  width: 90%;
+}
+#mn{
+  height: auto;
+  width: auto;
+}
+#mn-main{
+  height: auto;
+  width: auto;
+  flex-direction: column;
+}
+#a{
+  height: auto;
+  width: 100%;
+}
+#form{
+  height: auto;
+  width: auto;
+}
+#fm-main{
+  height: auto;
+  width: auto;
+  flex-direction: column;
+}
+#fm1{
+  height: auto;
+  width: 100%;
+}
+textarea {
+  width: 90%;
+}
+#fm1 input{
+  width: 300px;
+}
+footer{
+  height: auto;
+  width: auto;
+}
+#ft-main{
+  height: auto;
+  width: auto;
+  flex-direction: column;
+}
+#ft1{
+  height: auto;
+  width: 100%;
+}
+  }
